@@ -19,12 +19,12 @@
     <dependencies>
         <dependency>
             <groupId>us.codecraft</groupId>
-            <version>0.4.3</version>
+            <version>0.5.3</version>
             <artifactId>webmagic-core</artifactId>
         </dependency>
         <dependency>
             <groupId>us.codecraft</groupId>
-            <version>0.4.3</version>
+            <version>0.5.3</version>
             <artifactId>webmagic-extension</artifactId>
         </dependency>
         <dependency>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.1</version>
+            <version>3.3</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -102,6 +102,14 @@
                     <!--</execution>-->
                 <!--</executions>-->
             <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     
